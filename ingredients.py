@@ -1,0 +1,66 @@
+# catégorie -> liste de (nom français, nom anglais)
+CATEGORIES = {
+    "🥛 Produits laitiers & oeufs": [
+        ("Oeufs", "Eggs"), ("Lait", "Milk"), ("Beurre", "Butter"), ("Crème fraîche", "Creme Fraiche"),
+        ("Crème liquide", "Double Cream"), ("Fromage râpé", "Cheddar Cheese"), ("Mozzarella", "Mozzarella"),
+        ("Parmesan", "Parmesan"), ("Feta", "Feta"), ("Chèvre", "Goats Cheese"), ("Ricotta", "Ricotta"),
+        ("Mascarpone", "Mascarpone"), ("Gruyère", "Gruyere"), ("Brie", "Brie"), ("Yaourt", "Greek Yogurt"),
+        ("Fromage frais", "Cream Cheese"),
+    ],
+    "🥩 Viandes": [
+        ("Poulet", "Chicken"), ("Blanc de poulet", "Chicken Breast"), ("Cuisses de poulet", "Chicken Thighs"),
+        ("Boeuf", "Beef"), ("Boeuf haché", "Minced Beef"), ("Steak", "Beef Fillet"), ("Porc", "Pork"),
+        ("Côtelettes de porc", "Pork Chops"), ("Lardons", "Bacon"), ("Jambon", "Ham"), ("Saucisses", "Sausages"),
+        ("Chorizo", "Chorizo"), ("Agneau", "Lamb"), ("Dinde", "Turkey Mince"), ("Canard", "Duck"),
+    ],
+    "🐟 Poissons & fruits de mer": [
+        ("Saumon", "Salmon"), ("Thon", "Tuna"), ("Cabillaud", "Cod"), ("Crevettes", "Prawns"),
+        ("Moules", "Mussels"), ("Haddock", "Haddock"), ("Sardines", "Sardines"), ("Maquereau", "Mackerel"),
+        ("Calamars", "Squid"), ("Saint-Jacques", "Scallops"),
+    ],
+    "🥕 Légumes": [
+        ("Oignon", "Onion"), ("Oignon rouge", "Red Onions"), ("Échalote", "Shallots"), ("Ail", "Garlic"),
+        ("Tomate", "Tomato"), ("Tomates cerises", "Cherry Tomatoes"), ("Carotte", "Carrots"),
+        ("Pomme de terre", "Potatoes"), ("Patate douce", "Sweet Potatoes"), ("Courgette", "Courgettes"),
+        ("Aubergine", "Aubergine"), ("Poivron rouge", "Red Pepper"), ("Poivron vert", "Green Pepper"),
+        ("Champignons", "Mushrooms"), ("Épinards", "Spinach"), ("Brocoli", "Broccoli"),
+        ("Chou-fleur", "Cauliflower"), ("Chou", "Cabbage"), ("Salade", "Lettuce"), ("Concombre", "Cucumber"),
+        ("Poireau", "Leek"), ("Céleri", "Celery"), ("Petits pois", "Peas"), ("Haricots verts", "Green Beans"),
+        ("Maïs", "Sweetcorn"), ("Asperges", "Asparagus"), ("Courge", "Butternut Squash"),
+        ("Piment", "Red Chilli"), ("Gingembre", "Ginger"), ("Betterave", "Beetroot"),
+    ],
+    "🍎 Fruits": [
+        ("Pomme", "Apple"), ("Poire", "Pears"), ("Banane", "Banana"), ("Citron", "Lemon"),
+        ("Citron vert", "Lime"), ("Orange", "Orange"), ("Fraises", "Strawberries"),
+        ("Framboises", "Raspberries"), ("Myrtilles", "Blueberries"), ("Avocat", "Avocado"),
+        ("Ananas", "Pineapple"), ("Mangue", "Mango"), ("Pêche", "Peaches"), ("Raisins secs", "Raisins"),
+        ("Noix de coco", "Coconut"),
+    ],
+    "🍝 Féculents & céréales": [
+        ("Pâtes", "Pasta"), ("Spaghetti", "Spaghetti"), ("Penne", "Penne Rigate"), ("Lasagnes", "Lasagne Sheets"),
+        ("Nouilles", "Egg Noodles"), ("Riz", "Rice"), ("Riz basmati", "Basmati Rice"), ("Riz à risotto", "Arborio Rice"),
+        ("Pain", "Bread"), ("Tortillas", "Flour Tortilla"), ("Farine", "Flour"), ("Semoule", "Couscous"),
+        ("Quinoa", "Quinoa"), ("Flocons d'avoine", "Oats"), ("Pâte feuilletée", "Puff Pastry"),
+    ],
+    "🫘 Légumineuses & conserves": [
+        ("Lentilles", "Lentils"), ("Pois chiches", "Chickpeas"), ("Haricots rouges", "Kidney Beans"),
+        ("Haricots blancs", "Cannellini Beans"), ("Tomates en boîte", "Chopped Tomatoes"),
+        ("Concentré de tomate", "Tomato Puree"), ("Lait de coco", "Coconut Milk"),
+        ("Bouillon de poule", "Chicken Stock"), ("Bouillon de légumes", "Vegetable Stock"), ("Olives", "Black Olives"),
+    ],
+    "🌿 Herbes & épices": [
+        ("Persil", "Parsley"), ("Coriandre", "Coriander"), ("Basilic", "Basil"), ("Thym", "Thyme"),
+        ("Romarin", "Rosemary"), ("Menthe", "Mint"), ("Ciboulette", "Chives"), ("Laurier", "Bay Leaf"),
+        ("Cumin", "Cumin"), ("Paprika", "Paprika"), ("Curry", "Curry Powder"), ("Cannelle", "Cinnamon"),
+        ("Muscade", "Nutmeg"), ("Origan", "Oregano"), ("Curcuma", "Turmeric"),
+    ],
+    "🧂 Placard": [
+        ("Huile d'olive", "Olive Oil"), ("Huile végétale", "Vegetable Oil"), ("Vinaigre", "White Wine Vinegar"),
+        ("Sucre", "Sugar"), ("Sucre roux", "Brown Sugar"), ("Sauce soja", "Soy Sauce"), ("Miel", "Honey"),
+        ("Moutarde", "Dijon Mustard"), ("Mayonnaise", "Mayonnaise"), ("Ketchup", "Tomato Ketchup"),
+        ("Chocolat", "Dark Chocolate"), ("Cacao", "Cocoa"), ("Levure", "Baking Powder"),
+        ("Vanille", "Vanilla Extract"), ("Amandes", "Almonds"), ("Noix", "Walnuts"),
+        ("Cacahuètes", "Peanuts"), ("Beurre de cacahuète", "Peanut Butter"), ("Vin blanc", "White Wine"),
+        ("Vin rouge", "Red Wine"),
+    ],
+}

@@ -1,0 +1,22 @@
+.block-container { padding-top: 2rem; }
+.hero {
+    background: linear-gradient(135deg, #FF6B35 0%, #F7C59F 100%);
+    padding: 2rem 2.5rem; border-radius: 20px; color: white; margin-bottom: 1.5rem;
+}
+.hero h1 { color: white; margin: 0; font-size: 2.6rem; }
+.hero p { margin: .3rem 0 0; font-size: 1.1rem; opacity: .95; }
+.titre-carte { font-weight: 700; font-size: 1rem; min-height: 2.6em; }
+.badge {
+    display: inline-block; padding: .2rem .6rem; border-radius: 999px;
+    font-size: .8rem; font-weight: 600; margin: .3rem 0 .5rem;
+}
+.ok { background: #D8F3DC; color: #1B4332; }
+.manque { background: #FFE8D6; color: #9C3D10; }
+.puce {
+    display: inline-block; background: #FFE8D6; color: #9C3D10; padding: .2rem .6rem;
+    border-radius: 999px; margin: .15rem; font-size: .85rem;
+}
+div[data-testid="stExpander"], div[data-testid="stVerticalBlockBorderWrapper"] {
+    background: white; border-radius: 16px;
+}
+.stButton button { border-radius: 999px; font-weight: 600; }
